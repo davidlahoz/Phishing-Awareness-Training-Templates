@@ -25,7 +25,7 @@ This repository includes phishing email templates such as:
 
 Each template is designed to look realistic and provide a valuable training experience.
 
-## 🌐 Landing Page Templates
+## 🌐 Login Page Templates
 
 Landing pages are created to align with the emails for a seamless user experience. Available templates include:
 - Login Page
@@ -33,7 +33,9 @@ Landing pages are created to align with the emails for a seamless user experienc
 - Password Reset
 - File Download
 
-These pages mimic real sites to help employees recognize phishing attempts in a safe setting.
+## 🛡️ Landing Page Templates (You've been phished)
+
+These pages are just an informative page in case user was succesfully phished.
 
 ## 🧑‍🤝‍🧑 Contribution Guidelines
 
